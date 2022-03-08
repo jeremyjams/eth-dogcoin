@@ -20,7 +20,10 @@ const config: HardhatUserConfig = {
         },
       }
     ],
-  }
+  },
+  typechain: {
+    outDir: 'typechain'
+  },
 };
 
 module.exports = config;
